@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>com.laboki.eclipse.updatesite.javasyntaxfixer</name>
+	<comment></comment>
+	<projects>
+		<project>com.laboki.eclipse.feature.javasyntaxfixer</project>
+		<project>com.laboki.eclipse.plugin.javasyntaxfixer</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.pde.UpdateSiteBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.pde.UpdateSiteNature</nature>
+	</natures>
+</projectDescription>
